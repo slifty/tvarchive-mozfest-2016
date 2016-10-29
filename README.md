@@ -19,3 +19,12 @@ It contains:
 
   - A list of useful links.
   - Instructions on interacting with the duplitron via Postman.
+
+4. TVNews "Near RealTime" item for today's session:
+    
+  - http://archive.org/details/CNNW_20161029_090000_CNN_Newsroom_Live
+
+    
+5. Screenshots of TV News Archive ( https://archive.org/tv ) and 
+Mozilla Popcorn  ( https://archive.org/pop )
+https://github.com/slifty/tvarchive-mozfest-2016/raw/master/TVnews-and-popcorn.pdf    
