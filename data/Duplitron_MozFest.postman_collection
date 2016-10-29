@@ -1,0 +1,192 @@
+{
+	"id": "68857bcb-ed52-50f2-39ab-3a5ef25ed8dd",
+	"name": "Duplitron (MozFest)",
+	"description": "A series of requests for experimenting during MozFest 2016",
+	"order": [
+		"71c9866c-0655-77f8-9d2d-f3eceee6dbd6",
+		"8746c025-d8a3-fdf4-39fc-0e5ead9255a7",
+		"2b9b2f84-fd75-450b-7123-1e0ba0247653",
+		"d6723094-3c65-b528-bb02-e535ae2b694a",
+		"a6f59eba-c903-500e-d2b5-cd4d9ce8d7fc"
+	],
+	"folders": [],
+	"timestamp": 1477722526861,
+	"owner": "158240",
+	"public": false,
+	"requests": [
+		{
+			"id": "2b9b2f84-fd75-450b-7123-1e0ba0247653",
+			"headers": "",
+			"url": "http://tv-research4.us.archive.org/api/media_tasks",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "media_id",
+					"value": "48392",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "full_match",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1477723100287,
+			"name": "Create Match Task",
+			"description": "",
+			"collectionId": "68857bcb-ed52-50f2-39ab-3a5ef25ed8dd"
+		},
+		{
+			"id": "71c9866c-0655-77f8-9d2d-f3eceee6dbd6",
+			"headers": "",
+			"url": "http://tv-research4.us.archive.org/api/media",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "project_id",
+					"value": "172",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "media_path",
+					"value": "http://archive.org/download/2016_10_19_third_presidential_morning_cable/format=MP3",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "external_id",
+					"value": "2016_10_19_third_presidential_morning_cable",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1477722864927,
+			"name": "Create Media",
+			"description": "",
+			"collectionId": "68857bcb-ed52-50f2-39ab-3a5ef25ed8dd"
+		},
+		{
+			"id": "8746c025-d8a3-fdf4-39fc-0e5ead9255a7",
+			"headers": "",
+			"url": "http://tv-research4.us.archive.org/api/media",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "project_id",
+					"value": "172",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "base_media_id",
+					"value": "48392",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "start",
+					"value": "10",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "duration",
+					"value": "20",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1477723063653,
+			"name": "Create Media Subset",
+			"description": "",
+			"collectionId": "68857bcb-ed52-50f2-39ab-3a5ef25ed8dd"
+		},
+		{
+			"id": "a6f59eba-c903-500e-d2b5-cd4d9ce8d7fc",
+			"headers": "",
+			"url": "http://tv-research4.us.archive.org/api/media?project_id=172",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "media_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "match",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1477722827575,
+			"name": "View All Media",
+			"description": "",
+			"collectionId": "68857bcb-ed52-50f2-39ab-3a5ef25ed8dd",
+			"responses": []
+		},
+		{
+			"id": "d6723094-3c65-b528-bb02-e535ae2b694a",
+			"headers": "",
+			"url": "http://tv-research4.us.archive.org/api/media_tasks/48444",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "media_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "match",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1477723182260,
+			"name": "View Match Task",
+			"description": "",
+			"collectionId": "68857bcb-ed52-50f2-39ab-3a5ef25ed8dd"
+		}
+	]
+}
