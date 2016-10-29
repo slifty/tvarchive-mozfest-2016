@@ -22,9 +22,14 @@ It contains:
 
 4. TVNews "Near RealTime" item for today's session:
     
-  - http://archive.org/details/CNNW_20161029_090000_CNN_Newsroom_Live
+  - https://archive.org/details/CNNW_20161029_090000_CNN_Newsroom_Live
 
     
 5. Screenshots of TV News Archive ( https://archive.org/tv ) and 
 Mozilla Popcorn  ( https://archive.org/pop )
 https://github.com/slifty/tvarchive-mozfest-2016/raw/master/TVnews-and-popcorn.pdf    
+
+6. Questions?  Follow-up?   Contact us!   8-)
+   - https://twitter.com/@slifty  ( Dan Schultz )
+   - https://twitter.com/@tracey_pooh  ( Tracey Jaquith )
+   
