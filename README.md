@@ -1,6 +1,9 @@
 # Searchable TV Session (MozFest 2016)
 This repository contains resources relevant to our MozFest 2016 session about searchable TV.
 
+Etherpad:
+https://public.etherpad-mozilla.org/p/mozfest-2016-searchable-broadcasts--tv-for-robotic
+
 It contains:
 
 1. Some data (`/data`)
